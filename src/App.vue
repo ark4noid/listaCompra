@@ -1,11 +1,11 @@
 <template>
   <v-app>
-    <v-navigation-drawer app class="drawer">
+    <v-navigation-drawer app>
       <!-- -->
       <Menu />
     </v-navigation-drawer>
     <Header />
-    <v-main class="main">
+    <v-main>
       <v-container fluid>
         <router-view></router-view>
       </v-container>

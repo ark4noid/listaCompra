@@ -1,15 +1,15 @@
 <template>
-  <v-navigation-drawer class="botones_menu">
+  <div>
     <router-link to="/lista">
-     <v-btn>
-      <span>Crear lista</span>
-    </v-btn>
+      <v-btn>
+        <span>Crear lista</span>
+      </v-btn>
     </router-link>
-  </v-navigation-drawer>
+  </div>
 </template>
 
 <script>
 export default {
-    name: 'Menu',
-}
+  name: "Menu",
+};
 </script>
